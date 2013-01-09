@@ -21,5 +21,6 @@ jarsigner -keystore javakeys.jks -storepass tester ./lib/scala-compiler-2.10.0.j
 jarsigner -keystore javakeys.jks -storepass tester ./lib/scala-library-2.10.0.jar localhost
 jarsigner -keystore javakeys.jks -storepass tester ./lib/scala-swing-2.10.0.jar localhost
 
-echo "testing jnlp post jar signing"
+echo "testing jnlp post jar signing (requires server running)"
+#node server.js
 javaws scalaWebstart.jnlp
