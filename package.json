@@ -1,0 +1,14 @@
+{
+	"name": "scalaWebstart",
+	"version": "0.0.1",
+	"dependencies": {
+		"express" : "3.0.5"
+	},
+	"devDependencies": {
+		"mocha": "1.7.4",
+		"chai": "1.4.2",
+		"jsdom":"0.3.4",
+		"underscore": "1.4.3"
+	}
+}
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="6.0+" codebase="http://localhost:8080/" href="test.jnlp">
+	<information>
+		<title>Scala Webstart</title>
+		<vendor>Ad.com</vendor>
+	</information>
+	<security>
+		<all-permissions/>
+	</security>
+	<resources>
+		<j2se version="1.6+"/>
+		<jar href="lib/scalaws.jar" main="true"/>
+		<jar href="lib/scala-library-2.10.0.jar"/>
+		<jar href="lib/scala-compiler-2.10.0.jar"/>
+		<jar href="lib/scala-swing-2.10.0.jar"/>
+	</resources>
+	<application-desc main-class="com.ad.adserving.scalaws.ScalaTest"/>
+</jnlp>
